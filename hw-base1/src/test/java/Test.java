@@ -1,6 +1,7 @@
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Test {
 
@@ -11,11 +12,8 @@ public class Test {
 
         //2023/5/26
         DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-        format.parse("2023/5/26");
-
-
+        Date parse = format.parse("2023/5/26");
 
     }
-
 
 }
