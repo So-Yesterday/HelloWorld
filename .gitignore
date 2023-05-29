@@ -14,5 +14,7 @@ nbbuild/
 dist/
 nbdist/
 
+workspace.xml
+
 # misc 
 .DS_Storeworkspace.xml
