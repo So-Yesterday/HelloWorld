@@ -23,7 +23,7 @@ public class LianXiTest {
     }
 
     // 翻转链表
-    public Node reverseNode(Node<Integer> head) {
+    public Node<Integer> reverseNode(Node<Integer> head) {
         if (head == null || head.next == null) {
             return head;
         }

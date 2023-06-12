@@ -21,7 +21,6 @@ public class TestReverseList {
             System.out.print(newHead.val + "->");
             newHead = newHead.next;
         }
-        System.out.println("null");
     }
 
     public static ListNode reverseList(ListNode head) {
