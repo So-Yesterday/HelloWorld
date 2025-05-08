@@ -2,10 +2,11 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### IntelliJ IDEA ###
-.idea
+*.idea
 *.iws
 *.iml
 *.ipr
+
 
 ### NetBeans ###
 nbproject/private/
@@ -18,3 +19,5 @@ workspace.xml
 
 # misc 
 .DS_Storeworkspace.xml
+.project
+.classpath
